@@ -2,6 +2,13 @@
 name = "local-ip-addr"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/tsirysndr/local-ip-addr"
+license = "MIT"
+readme = "README.md"
+authors = ["Tsiry Sandratraina <tsiry.sndr@aol.com>"]
+categories = ["network-programming"]
+keywords = ["local", "ip", "address", "web", "network"]
+description = "A simple library for getting the local IP address of the current host"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
