@@ -30,10 +30,10 @@ local-ip-addr = "0.1"
 ## Example
 
 ```rust
-use local_ip_addr::get_local_ip_addr;
+use local_ip_addr::get_local_ip_address;
 
 fn main() {
-    let ip_addr = get_local_ip_addr().unwrap();
+    let ip_addr = get_local_ip_address().unwrap();
     println!("Local IP address: {}", ip_addr);
 }
 ```
